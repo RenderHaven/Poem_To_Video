@@ -11,4 +11,16 @@ pip install jupyter notebook
 
 jupyter notebook --no-browser --port=8890
 
-ssh -L 8890:localhost:8890 nitish@172.30.1.68
+ssh -L 8890:localhost:8890 sriparna@172.16.1.29
+
+
+##Models
+#CCCCCC/VPO-5B  (Prompt Genration model)
+url ->> https://huggingface.co/CCCCCC/VPO-5B
+download ->> hf download CCCCCC/VPO-5B --local-dir ./VPO-5B --repo-type model
+
+
+#zai-org/CogVideoX-5b (Vide Genration model)
+url ->> https://huggingface.co/zai-org/CogVideoX-5b
+download ->> hf download zai-org/CogVideoX-5b --local-dir ./CogVideoX-5B --repo-type model
+
