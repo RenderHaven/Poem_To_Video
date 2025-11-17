@@ -5,4 +5,5 @@ tqdm>=4.66.0
 diffusers
 accelerate
 opencv-python
-
+imageio
+imageio-ffmpeg
